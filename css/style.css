@@ -1,0 +1,38 @@
+ #jokeContainer {
+  margin: 20px; /*margin around the joke container */
+}
+
+/* Style for individual jokes */
+.joke {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.joke p:first-child {
+  font-weight: bold; /* Makes the first paragraph element bold */
+  margin-bottom: 5px;
+}
+
+.joke p:last-child {
+  font-style: italic;
+}
+
+.joke.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.joke.pun {
+  border-color: #ffc107; /* Sets border color for 'pun' jokes */
+}
+
+.joke.explicit {
+  padding: 15px;
+  border-color: #dc3545;
+}
+
+.joke.explicit p {
+  color: #dc3545;
+}

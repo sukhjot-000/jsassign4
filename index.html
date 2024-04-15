@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Joke Display</title>
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <!-- documentation link
+  
+    https://jokeapi.dev/
+
+
+  -->
+    <!-- Container for student information -->
+  <div class="student">
+    <p class="info"></p>
+  </div>
+
+    <!-- Dropdown to select joke category -->
+<select id="categorySelect">
+  <option value="Programming">Programming</option>
+  <option value="Miscellaneous">Miscellaneous</option>
+  <option value="Dark">Dark</option>
+  <option value="Pun">Pun</option>
+  <option value="Spooky">Spooky</option>
+  <option value="Christmas">Christmas</option>
+</select>
+
+  <!-- Dropdown to select number of jokes to fetch -->
+<select id="amountSelect">
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+  </select>
+
+<button id="fetchJokesBtn">Fetch Jokes</button>
+
+<div id="jokeContainer"></div>
+
+<script src="./js/script.js"></script>
+</body>
+</html>
